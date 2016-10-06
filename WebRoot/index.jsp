@@ -8,5 +8,6 @@
 <body>
 	<h2>客户管理系统</h2>
 	<a href="${pageContext.request.contextPath}/addCust.jsp ">添加客户</a>
+	<a href="${pageContext.request.contextPath}/servlet/ListCustServlet">客户列表</a>
 </body>
 </html>

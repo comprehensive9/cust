@@ -7,7 +7,7 @@ public class Cust implements Serializable {
 	private int id;
 	private String name;
 	private String gender;
-	private Date birthday;
+	private String birthday;
 	private String cellphone;
 	private String email;
 	private String type;
@@ -38,11 +38,11 @@ public class Cust implements Serializable {
 		this.gender = gender;
 	}
 
-	public Date getBirthday() {
+	public String getBirthday() {
 		return birthday;
 	}
 
-	public void setBirthday(Date birthday) {
+	public void setBirthday(String birthday) {
 		this.birthday = birthday;
 	}
 
