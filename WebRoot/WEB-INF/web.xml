@@ -26,6 +26,36 @@
     <servlet-name>ListCustServlet</servlet-name>
     <servlet-class>com.tdw.web.ListCustServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>CustInfoServlet</servlet-name>
+    <servlet-class>com.tdw.web.CustInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCustServlet</servlet-name>
+    <servlet-class>com.tdw.web.UpdateCustServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelCustServlet</servlet-name>
+    <servlet-class>com.tdw.web.DelCustServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BatchDelServlet</servlet-name>
+    <servlet-class>com.tdw.web.BatchDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindCustByCondServlet</servlet-name>
+    <servlet-class>com.tdw.web.FindCustByCondServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PageCustServlet</servlet-name>
+    <servlet-class>com.tdw.web.PageCustServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
 
 
   <servlet-mapping>
@@ -35,6 +65,30 @@
   <servlet-mapping>
     <servlet-name>ListCustServlet</servlet-name>
     <url-pattern>/servlet/ListCustServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustInfoServlet</servlet-name>
+    <url-pattern>/servlet/CustInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCustServlet</servlet-name>
+    <url-pattern>/servlet/UpdateCustServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCustServlet</servlet-name>
+    <url-pattern>/servlet/DelCustServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BatchDelServlet</servlet-name>
+    <url-pattern>/servlet/BatchDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCustByCondServlet</servlet-name>
+    <url-pattern>/servlet/FindCustByCondServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageCustServlet</servlet-name>
+    <url-pattern>/servlet/PageCustServlet</url-pattern>
   </servlet-mapping>	
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>

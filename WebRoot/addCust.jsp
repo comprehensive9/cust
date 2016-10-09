@@ -15,7 +15,8 @@
 			<table border="1px">
 				<tr>
 					<td>客户姓名:</td>
-					<td><input type="text" name="name" /></td>
+					<td><input type="text" name="name" />
+					</td>
 				</tr>
 
 				<tr>
@@ -26,17 +27,20 @@
 
 				<tr>
 					<td>出生日期:</td>
-					<td><input type="text" name="birthday" /></td>
+					<td><input type="text" name="birthday" />
+					</td>
 				</tr>
 
 				<tr>
 					<td>手机号码:</td>
-					<td><input type="text" name="cellphone" /></td>
+					<td><input type="text" name="cellphone" />
+					</td>
 				</tr>
 
 				<tr>
 					<td>电子邮箱:</td>
-					<td><input type="text" name="email" /></td>
+					<td><input type="text" name="email" />
+					</td>
 				</tr>
 
 				<tr>
@@ -50,7 +54,7 @@
 
 				<tr>
 					<td>客户类型:</td>
-					<td><select nmae="type">
+					<td><select name="type">
 
 							<option value="钻石客户">钻石客户</option>
 							<option value="白金客户">白金客户</option>
@@ -58,7 +62,8 @@
 							<option value="白银客户">白银客户</option>
 							<option value="青铜客户">青铜客户</option>
 							<option value="黑铁客户">黑铁客户</option>
-					</select></td>
+					</select>
+					</td>
 				</tr>
 
 				<tr>
@@ -69,7 +74,8 @@
 
 				<tr>
 					<td colspan="2"><input type="submit" value="添加客户"
-						align="center" /></td>
+						align="center" />
+					</td>
 				</tr>
 			</table>
 		</form>
